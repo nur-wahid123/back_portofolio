@@ -1,0 +1,23 @@
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "name":"Indra Fajar Nurwahid",
+    "username":"indraFajaaar",
+    "email":"ind@gmail.com",
+    "password":"halobro",
+    "passwordConfirmation":"halobro"
+}
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username":"indraFajaaar",
+    "password":"halobro"
+}
+###
+GET http://localhost:5000/check
+###
+GET http://localhost:5000/logout
+###
